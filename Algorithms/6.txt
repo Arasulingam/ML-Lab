@@ -1,6 +1,6 @@
 1. Import necessary libraries and load the dataset into a DataFrame, mapping labels ('pos' and 'neg') to numerical values.
 
-2. Split the dataset into features \( X \) and target variable \( y \), and then use `train_test_split` to create training and testing sets.
+2. Split the dataset into features  X  and target variable  y , and then use `train_test_split` to create training and testing sets.
 
 3. Use `CountVectorizer` to convert the text data into a document-term matrix for both training and testing sets.
 

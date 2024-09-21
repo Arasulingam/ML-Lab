@@ -1,6 +1,6 @@
 1. Import necessary libraries, including KMeans and GaussianMixture for clustering, and load the Iris dataset.
 
-2. Create a DataFrame for features \( X \) and target labels \( y \), labeling the columns appropriately.
+2. Create a DataFrame for features  X  and target labels  y , labeling the columns appropriately.
 
 3. Visualize the actual data distribution using a scatter plot of petal length versus petal width.
 

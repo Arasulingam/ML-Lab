@@ -1,9 +1,9 @@
 1. Import necessary libraries and define the `lowess` function to perform locally weighted scatterplot smoothing.
 
-2. Initialize the input data \( x \) and noisy target values \( y \) using a sine function with added noise.
+2. Initialize the input data  x  and noisy target values  y  using a sine function with added noise.
 
-3. Set the smoothing parameter \( f \) and the number of iterations for the LOWESS algorithm.
+3. Set the smoothing parameter  f  and the number of iterations for the LOWESS algorithm.
 
-4. Call the `lowess` function to compute the smoothed values \( yest \).
+4. Call the `lowess` function to compute the smoothed values  yest .
 
 5. Plot the original noisy data and the smoothed curve using Matplotlib.

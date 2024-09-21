@@ -1,4 +1,4 @@
-1. Import NumPy and initialize input features \( X \) and target outputs \( y \), normalizing them.
+1. Import NumPy and initialize input features  X  and target outputs  y , normalizing them.
 
 2. Define a `Neural_Network` class to initialize input, output, and hidden layer sizes, and randomly initialize weights.
 
