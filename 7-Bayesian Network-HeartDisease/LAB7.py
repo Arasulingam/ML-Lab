@@ -1,10 +1,10 @@
 import pandas as pd
-data=pd.read_csv("heartdisease.csv")
+data=pd.read_csv("7-Bayesian Network-HeartDisease\heartdisease.csv")
 heart_disease=pd.DataFrame(data)
 print(heart_disease)
 
-from pgmpy.models import BayesianModel
-model=BayesianModel([
+from pgmpy.models import BayesianNetwork
+model=BayesianNetwork([
 ('age','Lifestyle'),
 ('Gender','Lifestyle'),
 ('Family','heartdisease'),
@@ -36,4 +36,4 @@ q = HeartDisease_infer.query(variables=['heartdisease'], evidence={
     'cholestrol':int(input('Enter cholestrol :'))
     })
 
-print(q['heartdisease'])
+print(q)

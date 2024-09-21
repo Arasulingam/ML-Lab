@@ -1,21 +1,18 @@
-# import necessary libarities
 import pandas as pd
 from sklearn import tree
 from sklearn.preprocessing import LabelEncoder
 from sklearn.naive_bayes import GaussianNB
 
-# load data from CSV
-data = pd.read_csv('tennisdata.csv')
+data = pd.read_csv('5-Naive Bayesian Classifier/tennisdata.csv')
 print("THe first 5 values of data is :\n",data.head())
 
-# obtain Train data and Train output
+
 X = data.iloc[:,:-1]
 print("\nThe First 5 values of train data is\n",X.head())
 
 y = data.iloc[:,-1]
 print("\nThe first 5 values of Train output is\n",y.head())
 
-# Convert then in numbers 
 le_outlook = LabelEncoder()
 X.Outlook = le_outlook.fit_transform(X.Outlook)
 
