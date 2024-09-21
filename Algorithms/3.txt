@@ -1,0 +1,9 @@
+1. Import libraries and define a function to read CSV data, returning headers and training data.
+
+2. Create a `Node` class for tree nodes, storing attributes and children.
+
+3. Implement functions to generate data subsets, calculate entropy, and compute gain ratios.
+
+4. Define a recursive function to build the decision tree based on gain ratios.
+
+5. Read the data, construct the decision tree, and print the tree structure.

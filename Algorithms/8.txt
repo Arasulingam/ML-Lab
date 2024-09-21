@@ -1,0 +1,9 @@
+1. Import necessary libraries, including KMeans and GaussianMixture for clustering, and load the Iris dataset.
+
+2. Create a DataFrame for features \( X \) and target labels \( y \), labeling the columns appropriately.
+
+3. Visualize the actual data distribution using a scatter plot of petal length versus petal width.
+
+4. Apply KMeans clustering to the dataset, fitting the model and visualizing the clusters in a scatter plot.
+
+5. Standardize the data, apply Gaussian Mixture Model (GMM) clustering, and visualize the resulting clusters in a third scatter plot.

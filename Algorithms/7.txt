@@ -1,0 +1,9 @@
+1. Import pandas and load the heart disease dataset into a DataFrame, displaying its contents.
+
+2. Define a Bayesian Network structure by specifying the relationships between variables, such as age, gender, lifestyle, diet, cholesterol, and heart disease.
+
+3. Fit the model to the data using the Maximum Likelihood Estimator.
+
+4. Initialize variable elimination for inference with the Bayesian Network.
+
+5. Prompt the user to input values for age, gender, family history, diet, lifestyle, and cholesterol, then query the model for the probability of heart disease based on these inputs, and display the results.

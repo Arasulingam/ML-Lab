@@ -1,0 +1,9 @@
+1. Import NumPy and initialize input features \( X \) and target outputs \( y \), normalizing them.
+
+2. Define a `Neural_Network` class to initialize input, output, and hidden layer sizes, and randomly initialize weights.
+
+3. Implement the `forward` method for calculating outputs using weighted sums and the sigmoid activation function.
+
+4. Create the `backward` method to update weights based on the error using backpropagation.
+
+5. Instantiate the network, print inputs and actual outputs, display predicted outputs, and calculate the loss before training.

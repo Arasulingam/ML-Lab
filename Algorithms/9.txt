@@ -1,0 +1,9 @@
+1. Import necessary libraries and load the Iris dataset.
+
+2. Split the dataset into training and testing sets using `train_test_split`.
+
+3. Initialize a K-Nearest Neighbors classifier with one neighbor and fit it to the training data.
+
+4. Loop through the test set to make predictions for each instance and print the actual and predicted target values.
+
+5. Output the accuracy score of the model on the test set.

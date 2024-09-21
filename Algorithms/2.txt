@@ -1,0 +1,5 @@
+1. Import necessary libraries and load the training data into a DataFrame.
+2. Extract the concepts (features) and target labels (outcomes) from the DataFrame.
+3. Initialize the specific hypothesis with the first positive example and create a general hypothesis with wildcards for all attributes.
+4. For each example, update the specific hypothesis if it is positive, and update the general hypothesis if the example is negative.
+5. Remove any general hypotheses that are completely wildcarded and return the final specific and general hypotheses.

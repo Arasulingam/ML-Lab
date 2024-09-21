@@ -1,0 +1,5 @@
+1. Start with the most general hypothesis, initializing all attributes to a placeholder.
+2. Read the training data and filter out the positive examples with the desired outcome (e.g., "YES").
+3. Set the first positive example as the initial hypothesis to begin refining.
+4. For each positive example, compare it to the hypothesis and replace differing attributes with a wildcard (`?`).
+5. After processing all examples, output the final, most specific hypothesis consistent with the positive examples.
